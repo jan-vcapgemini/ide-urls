@@ -1,0 +1,2251 @@
+[ {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2610",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in search suggestions due to improperly escaping users with less-than and greater-than characters in their names (SECURITY-388).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2610"
+}, {
+  "versionRange" : "(,2.415]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2023-39151",
+  "description" : "Jenkins 2.415 and earlier, LTS 2.401.2 and earlier does not sanitize or properly encode URLs in build logs when transforming them into hyperlinks, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control build log contents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-39151"
+}, {
+  "versionRange" : "(,1.580.3]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2015-1808",
+  "description" : "Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users to cause a denial of service (improper plug-in and tool installation) via crafted update center data.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1808"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21693",
+  "description" : "When creating temporary files, agent-to-controller access to create those files is only checked after they've been created in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21693"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2021-21686",
+  "description" : "File path filters in the agent-to-controller security subsystem of Jenkins 2.318 and earlier, LTS 2.303.2 and earlier do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21686"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21690",
+  "description" : "Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21690"
+}, {
+  "versionRange" : "(,2.191]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2019-10384",
+  "description" : "Jenkins 2.191 and earlier, LTS 2.176.2 and earlier allowed users to obtain CSRF tokens without an associated web session ID, resulting in CSRF tokens that did not expire and could be used to bypass CSRF protection for the anonymous user.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10384"
+}, {
+  "versionRange" : "(,2.120]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000192",
+  "description" : "A information exposure vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in AboutJenkins.java, ListPluginsCommand.java that allows users with Overall/Read access to enumerate all installed plugins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000192"
+}, {
+  "versionRange" : "(,1.466.2]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,1.482)",
+  "severity" : 6.1,
+  "cveName" : "CVE-2012-4440",
+  "description" : "Cross-site Scripting (XSS) in Jenkins main before 1.482 and LTS before 1.466.2 allows remote attackers to inject arbitrary web script or HTML in the Violations plugin.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-4440"
+}, {
+  "versionRange" : "[2.332.1,2.332.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34171",
+  "description" : "In Jenkins 2.321 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the HTML output generated for new symbol-based SVG icons includes the 'title' attribute of 'l:ionicon' (until Jenkins 2.334) and 'alt' attribute of 'l:icon' (since Jenkins 2.335) without further escaping, resulting in a cross-site scripting (XSS) vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34171"
+}, {
+  "versionRange" : "(,2.424)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2023-43497",
+  "description" : "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using the Stapler web framework creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43497"
+}, {
+  "versionRange" : "(,2.138.3]",
+  "severity" : 8.2,
+  "cveName" : "CVE-2018-1000863",
+  "description" : "A data modification vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in User.java, IdStrategy.java that allows attackers to submit crafted user names that can cause an improper migration of user record storage formats, potentially preventing the victim from logging into Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000863"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2021-21609",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not correctly match requested URLs to the list of always accessible paths, allowing attackers without Overall/Read permission to access some URLs as if they did have Overall/Read permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21609"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2598",
+  "description" : "Jenkins before versions 2.44, 2.32.2 uses AES ECB block cipher mode without IV for encrypting secrets which makes Jenkins and the stored secrets vulnerable to unnecessary risks (SECURITY-304).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2598"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 5.9,
+  "cveName" : "CVE-2017-1000396",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier bundled a version of the commons-httpclient library with the vulnerability CVE-2012-6153 that incorrectly verified SSL certificates, making it susceptible to man-in-the-middle attacks. This library is widely used as a transitive dependency in Jenkins plugins. The fix for CVE-2012-6153 was backported to the version of commons-httpclient that is bundled in core and made available to plugins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000396"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10403",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not escape the SCM tag name on the tooltip for SCM tag actions, resulting in a stored XSS vulnerability exploitable by users able to control SCM tag names for these actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10403"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3725",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allows remote authenticated users to trigger updating of update site metadata by leveraging a missing permissions check. NOTE: this issue can be combined with DNS cache poisoning to cause a denial of service (service disruption).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3725"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2613",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a user creation CSRF using GET by admins. While this user record was only retained until restart in most cases, administrators' web browsers could be manipulated to create a large number of user records (SECURITY-406).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2613"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10403",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not escape the SCM tag name on the tooltip for SCM tag actions, resulting in a stored XSS vulnerability exploitable by users able to control SCM tag names for these actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10403"
+}, {
+  "versionRange" : "[2.50,2.424)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2023-43494",
+  "description" : "Jenkins 2.50 through 2.423 (both inclusive), LTS 2.60.1 through 2.414.1 (both inclusive) does not exclude sensitive build variables (e.g., password parameter values) from the search in the build history widget, allowing attackers with Item/Read permission to obtain values of sensitive variables used in builds by iteratively testing different characters until the correct sequence is discovered.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43494"
+}, {
+  "versionRange" : "(,1.625.1]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2015-7538",
+  "description" : "Jenkins before 1.640 and LTS before 1.625.2 allow remote attackers to bypass the CSRF protection mechanism via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7538"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2016-3724",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with extended read access to obtain sensitive password information by reading a job configuration.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3724"
+}, {
+  "versionRange" : "(,1.639]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2015-7538",
+  "description" : "Jenkins before 1.640 and LTS before 1.625.2 allow remote attackers to bypass the CSRF protection mechanism via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7538"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2604",
+  "description" : "In Jenkins before versions 2.44, 2.32.2 low privilege users were able to act on administrative monitors due to them not being consistently protected by permission checks (SECURITY-371).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2604"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 2.2,
+  "cveName" : "CVE-2017-1000401",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier default form control for passwords and other secrets, <f:password/>, supports form validation (e.g. for API keys). The form validation AJAX requests were sent via GET, which could result in secrets being logged to a HTTP access log in non-default configurations of Jenkins, and made available to users with access to these log files. Form validation for <f:password/> is now always sent via POST, which is typically not logged.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000401"
+}, {
+  "versionRange" : "[2.332.1,2.332.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34170",
+  "description" : "In Jenkins 2.320 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the help icon does not escape the feature name that is part of its tooltip, effectively undoing the fix for SECURITY-1955, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34170"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2017-1000394",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier bundled a version of the commons-fileupload library with the denial-of-service vulnerability known as CVE-2016-3092. The fix for that vulnerability has been backported to the version of the library bundled with Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000394"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2105",
+  "description" : "REST API endpoints in Jenkins 2.218 and earlier, LTS 2.204.1 and earlier were vulnerable to clickjacking attacks.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2105"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3667",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 does not properly prevent downloading of plugins, which allows remote authenticated users with the Overall/READ permission to obtain sensitive information by reading the plugin code.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3667"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3723",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with read access to obtain sensitive plugin installation information by leveraging missing permissions checks in unspecified XML/JSON API endpoints.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3723"
+}, {
+  "versionRange" : "(,2.107)",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-6356",
+  "description" : "Jenkins before 2.107 and Jenkins LTS before 2.89.4 did not properly prevent specifying relative paths that escape a base directory for URLs accessing plugin resource files. This allowed users with Overall/Read permission to download files from the Jenkins master they should not have access to. On Windows, any file accessible to the Jenkins master process could be downloaded. On other operating systems, any file within the Jenkins home directory accessible to the Jenkins master process could be downloaded.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-6356"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2061",
+  "description" : "The input control in PasswordParameterDefinition in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to obtain passwords by reading the HTML source code, related to the default value.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2061"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2064",
+  "description" : "The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2064"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-2608",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to a remote code execution vulnerability involving the deserialization of various types in javax.imageio in XStream-based APIs (SECURITY-383).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2608"
+}, {
+  "versionRange" : "(,2.235.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2223",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape correctly the 'href' attribute of links to downstream jobs displayed in the build console page, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2223"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2018-1999002",
+  "description" : "A arbitrary file read vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in the Stapler web framework's org/kohsuke/stapler/Stapler.java that allows attackers to send crafted HTTP requests returning the contents of any file on the Jenkins master file system that the Jenkins master has access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999002"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10405",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier printed the value of the \"Cookie\" HTTP request header on the /whoAmI/ URL, allowing attackers exploiting another XSS vulnerability to obtain the HTTP session cookie despite it being marked HttpOnly.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10405"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 6.8,
+  "cveName" : "CVE-2014-2066",
+  "description" : "Session fixation vulnerability in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to hijack web sessions via vectors involving the \"override\" of Jenkins cookies.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2066"
+}, {
+  "versionRange" : "(,2.153]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2018-1000861",
+  "description" : "A code execution vulnerability exists in the Stapler web framework used by Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in stapler/core/src/main/java/org/kohsuke/stapler/MetaClass.java that allows attackers to invoke some methods on Java objects by accessing crafted URLs that were not intended to be invoked this way.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000861"
+}, {
+  "versionRange" : "(,2.158]",
+  "severity" : 7.2,
+  "cveName" : "CVE-2019-1003003",
+  "description" : "An improper authorization vulnerability exists in Jenkins 2.158 and earlier, LTS 2.150.1 and earlier in core/src/main/java/hudson/security/TokenBasedRememberMeServices2.java that allows attackers with Overall/RunScripts permission to craft Remember Me cookies that would never expire, allowing e.g. to persist access to temporarily compromised user accounts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003003"
+}, {
+  "versionRange" : "(,1.498]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2017-1000362",
+  "description" : "The re-key admin monitor was introduced in Jenkins 1.498 and re-encrypted all secrets in JENKINS_HOME with a new key. It also created a backup directory with all old secrets, and the key used to encrypt them. These backups were world-readable and not removed afterwards. Jenkins now deletes the backup directory, if present. Upgrading from before 1.498 will no longer create a backup directory. Administrators relying on file access permissions in their manually created backups are advised to check them for the directory $JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups, and delete it if present.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000362"
+}, {
+  "versionRange" : "(,2.424)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2023-43495",
+  "description" : "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier does not escape the value of the 'caption' constructor parameter of 'ExpandableDetailsNote', resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control this parameter.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43495"
+}, {
+  "versionRange" : "(,2.107.2]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2018-1000194",
+  "description" : "A path traversal vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in FilePath.java, SoloFilePathFilter.java that allows malicious agents to read and write arbitrary files on the Jenkins master, bypassing the agent-to-master security subsystem protection.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000194"
+}, {
+  "versionRange" : "[1.466.1,1.466.1]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,2.318]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21696",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21696"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2019-10406",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not restrict or filter values set as Jenkins URL in the global configuration, resulting in a stored XSS vulnerability exploitable by attackers with Overall/Administer permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10406"
+}, {
+  "versionRange" : "(,1.639]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2015-7536",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.640 and LTS before 1.625.2 allows remote authenticated users to inject arbitrary web script or HTML via unspecified vectors related to workspaces and archived artifacts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7536"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2013-0330",
+  "description" : "Unspecified vulnerability in Jenkins before 1.502 and LTS before 1.480.3 allows remote authenticated users with write access to build arbitrary jobs via unknown attack vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0330"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3722",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with multiple accounts to cause a denial of service (unable to login) by editing the \"full name.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3722"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2599",
+  "description" : "Jenkins before versions 2.44 and 2.32.2 is vulnerable to an insufficient permission check. This allows users with permissions to create new items (e.g. jobs) to overwrite existing items they don't have access to (SECURITY-321).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2599"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 6.8,
+  "cveName" : "CVE-2014-2066",
+  "description" : "Session fixation vulnerability in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to hijack web sessions via vectors involving the \"override\" of Jenkins cookies.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2066"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000400",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier remote API at /job/(job-name)/api contained information about upstream and downstream projects. This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API now only lists upstream and downstream projects that the current user has access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000400"
+}, {
+  "versionRange" : "(,2.89.3]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000068",
+  "description" : "An improper input validation vulnerability exists in Jenkins versions 2.106 and earlier, and LTS 2.89.3 and earlier, that allows an attacker to access plugin resource files in the META-INF and WEB-INF directories that should not be accessible, if the Jenkins home directory is on a case-insensitive file system.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000068"
+}, {
+  "versionRange" : "(,1.586]",
+  "severity" : 6.8,
+  "cveName" : "CVE-2014-3665",
+  "description" : "Jenkins before 1.587 and LTS before 1.580.1 do not properly ensure trust separation between a master and slaves, which might allow remote attackers to execute arbitrary code on the master by leveraging access to the slave.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3665"
+}, {
+  "versionRange" : "(,1.482)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2012-4438",
+  "description" : "Jenkins main before 1.482 and LTS before 1.466.2 allows remote attackers with read access and HTTP access to Jenkins master to insert data and execute arbitrary code.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-4438"
+}, {
+  "versionRange" : "(,2.106]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000068",
+  "description" : "An improper input validation vulnerability exists in Jenkins versions 2.106 and earlier, and LTS 2.89.3 and earlier, that allows an attacker to access plugin resource files in the META-INF and WEB-INF directories that should not be accessible, if the Jenkins home directory is on a case-insensitive file system.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000068"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2018-1999043",
+  "description" : "A denial of service vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in BasicAuthenticationFilter.java, BasicHeaderApiTokenAuthenticator.java that allows attackers to create ephemeral in-memory user records by attempting to log in using invalid credentials.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999043"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21685",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create parent directories in FilePath#mkdirs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21685"
+}, {
+  "versionRange" : "(,2.355]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-34174",
+  "description" : "In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34174"
+}, {
+  "versionRange" : "(,2.153]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000862",
+  "description" : "An information exposure vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in DirectoryBrowserSupport.java that allows attackers with the ability to control build output to browse the file system on agents running builds beyond the duration of the build using the workspace browser.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000862"
+}, {
+  "versionRange" : "(,2.227]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2162",
+  "description" : "Jenkins 2.227 and earlier, LTS 2.204.5 and earlier does not set Content-Security-Policy headers for files uploaded as file parameters to a build, resulting in a stored XSS vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2162"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2013-0329",
+  "description" : "Unspecified vulnerability in Jenkins before 1.502 and LTS before 1.480.3 allows remote attackers to bypass the CSRF protection mechanism via unknown attack vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0329"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 6.0,
+  "cveName" : "CVE-2014-3663",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Job/CONFIGURE permission to bypass intended restrictions and create or destroy arbitrary jobs via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3663"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-21688",
+  "description" : "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21688"
+}, {
+  "versionRange" : "(,2.276)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2021-21615",
+  "description" : "Jenkins 2.275 and LTS 2.263.2 allows reading arbitrary files using the file browser for workspaces and archived artifacts due to a time-of-check to time-of-use (TOCTOU) race condition.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21615"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2015-5326",
+  "description" : "Cross-site scripting (XSS) vulnerability in the slave overview page in Jenkins before 1.638 and LTS before 1.625.2 allows remote authenticated users with certain permissions to inject arbitrary web script or HTML via the slave offline status message.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5326"
+}, {
+  "versionRange" : "(,2.251]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2229",
+  "description" : "Jenkins 2.251 and earlier, LTS 2.235.3 and earlier does not escape the tooltip content of help icons, resulting in a stored cross-site scripting (XSS) vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2229"
+}, {
+  "versionRange" : "(,2.73.2]",
+  "severity" : 7.3,
+  "cveName" : "CVE-2017-1000391",
+  "description" : "Jenkins versions 2.88 and earlier and 2.73.2 and earlier stores metadata related to 'people', which encompasses actual user accounts, as well as users appearing in SCM, in directories corresponding to the user ID on disk. These directories used the user ID for their name without additional escaping, potentially resulting in problems like overwriting of unrelated configuration files.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000391"
+}, {
+  "versionRange" : "[1.466.1,1.466.1]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,2.244]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2222",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the job name in the 'Keep this build forever' badge tooltip, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2222"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000398",
+  "description" : "The remote API in Jenkins 2.73.1 and earlier, 2.83 and earlier at /computer/(agent-name)/api showed information about tasks (typically builds) currently running on that agent. This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API now only shows information about accessible tasks.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000398"
+}, {
+  "versionRange" : "[1.642.1,1.642.1]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2016-0788",
+  "description" : "The remoting module in Jenkins before 1.650 and LTS before 1.642.2 allows remote attackers to execute arbitrary code by opening a JRMP listener.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0788"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2014-3666",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to execute arbitrary code via a crafted packet to the CLI channel.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3666"
+}, {
+  "versionRange" : "[1.596.1,1.596.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2015-1814",
+  "description" : "The API token-issuing service in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to gain privileges via a \"forced API token change\" involving anonymous users.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1814"
+}, {
+  "versionRange" : "(,2.303.2]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21696",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21696"
+}, {
+  "versionRange" : "(,2.164.1]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2019-1003049",
+  "description" : "Users who cached their CLI authentication before Jenkins was updated to 2.150.2 and newer, or 2.160 and newer, would remain authenticated in Jenkins 2.171 and earlier and Jenkins LTS 2.164.1 and earlier, because the fix for CVE-2019-1003004 in these releases did not reject existing remoting-based CLI authentication caches.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003049"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21691",
+  "description" : "Creating symbolic links is possible without the 'symlink' agent-to-controller access control permission in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21691"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1999007",
+  "description" : "A cross-site scripting vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in the Stapler web framework's org/kohsuke/stapler/Stapler.java that allows attackers with the ability to control the existence of some URLs in Jenkins to define JavaScript that would be executed in another user's browser when that other user views HTTP 404 error pages while Stapler debug mode is enabled.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999007"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5319",
+  "description" : "XML external entity (XXE) vulnerability in the create-job CLI command in Jenkins before 1.638 and LTS before 1.625.2 allows remote attackers to read arbitrary files via a crafted job configuration that is then used in an \"XML-aware tool,\" as demonstrated by get-job and update-job.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5319"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2014-3666",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to execute arbitrary code via a crafted packet to the CLI channel.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3666"
+}, {
+  "versionRange" : "(,2.263)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-2048",
+  "description" : "In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-2048"
+}, {
+  "versionRange" : "(,1.580.3]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2015-1807",
+  "description" : "Directory traversal vulnerability in Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users with certain permissions to read arbitrary files via a symlink, related to building artifacts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1807"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1999045",
+  "description" : "A improper authentication vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in SecurityRealm.java, TokenBasedRememberMeServices2.java that allows attackers with a valid cookie to remain logged in even if that feature is disabled.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999045"
+}, {
+  "versionRange" : "(,2.164.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-1003050",
+  "description" : "The f:validateButton form control for the Jenkins UI did not properly escape job URLs in Jenkins 2.171 and earlier and Jenkins LTS 2.164.1 and earlier, resulting in a cross-site scripting (XSS) vulnerability exploitable by users with the ability to control job names.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003050"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-0325",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.454, Jenkins LTS before 1.424.5, and Jenkins Enterprise 1.400.x before 1.400.0.13 and 1.424.x before 1.424.5.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2012-0324.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0325"
+}, {
+  "versionRange" : "(,2.120]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000193",
+  "description" : "A improper neutralization of control sequences vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in HudsonPrivateSecurityRealm.java that allows users to sign up using user names containing control characters that can then appear to have the same name as other users, and cannot be deleted via the UI.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000193"
+}, {
+  "versionRange" : "(,2.314]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2021-21683",
+  "description" : "The file browser in Jenkins 2.314 and earlier, LTS 2.303.1 and earlier may interpret some paths to files as absolute on Windows, resulting in a path traversal vulnerability allowing attackers with Overall/Read permission (Windows controller) or Job/Workspace permission (Windows agents) to obtain the contents of arbitrary files.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21683"
+}, {
+  "versionRange" : "[2.222.1,2.426.2]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2024-23898",
+  "description" : "Jenkins 2.217 through 2.441 (both inclusive), LTS 2.222.1 through 2.426.2 (both inclusive) does not perform origin validation of requests made through the CLI WebSocket endpoint, resulting in a cross-site WebSocket hijacking (CSWSH) vulnerability, allowing attackers to execute CLI commands on the Jenkins controller.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-23898"
+}, {
+  "versionRange" : "(,2.107.1]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000169",
+  "description" : "An exposure of sensitive information vulnerability exists in Jenkins 2.115 and older, LTS 2.107.1 and older, in CLICommand.java and ViewOptionHandler.java that allows unauthorized attackers to confirm the existence of agents or views with an attacker-specified name by sending a CLI command to Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000169"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1999047",
+  "description" : "A improper authorization vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in UpdateCenter.java that allows attackers to cancel a Jenkins restart scheduled through the update center.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999047"
+}, {
+  "versionRange" : "(,2.107.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1000170",
+  "description" : "A cross-site scripting vulnerability exists in Jenkins 2.115 and older, LTS 2.107.1 and older, in confirmationList.jelly and stopButton.jelly that allows attackers with Job/Configure and/or Job/Create permission to create an item name containing JavaScript that would be executed in another user's browser when that other user performs some UI actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000170"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10402",
+  "description" : "In Jenkins 2.196 and earlier, LTS 2.176.3 and earlier, the f:combobox form control interpreted its item labels as HTML, resulting in a stored XSS vulnerability exploitable by users with permission to define its contents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10402"
+}, {
+  "versionRange" : "(,2.107.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000195",
+  "description" : "A server-side request forgery vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in ZipExtractionInstaller.java that allows users with Overall/Read permission to have Jenkins submit a HTTP GET request to an arbitrary URL and learn whether the response is successful (200) or not.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000195"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2060",
+  "description" : "The Winstone servlet container in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to hijack sessions via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2060"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2014-2067",
+  "description" : "Cross-site scripting (XSS) vulnerability in java/hudson/model/Cause.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to inject arbitrary web script or HTML via a \"remote cause note.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2067"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 7.0,
+  "cveName" : "CVE-2023-27899",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a plugin for installation, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used, potentially resulting in arbitrary code execution.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27899"
+}, {
+  "versionRange" : "(,2.56]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2017-1000355",
+  "description" : "Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to an XStream: Java crash when trying to instantiate void/Void.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000355"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3680",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Job/READ permission to obtain the default value for the password field of a parameterized job by reading the DOM.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3680"
+}, {
+  "versionRange" : "(,2.277.3)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-28165",
+  "description" : "In Eclipse Jetty 7.2.2 to 9.4.38, 10.0.0.alpha0 to 10.0.1, and 11.0.0.alpha0 to 11.0.1, CPU usage can reach 100% upon receiving a large invalid TLS frame.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-28165"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2014-2068",
+  "description" : "The doIndex function in hudson/util/RemotingDiagnostics.java in CloudBees Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users with the ADMINISTER permission to obtain sensitive information via vectors related to heapDump.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2068"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1999003",
+  "description" : "A Improper authorization vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in Queue.java that allows attackers with Overall/Read permission to cancel queued builds.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999003"
+}, {
+  "versionRange" : "[2.320,2.355]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34170",
+  "description" : "In Jenkins 2.320 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the help icon does not escape the feature name that is part of its tooltip, effectively undoing the fix for SECURITY-1955, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34170"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2014-2067",
+  "description" : "Cross-site scripting (XSS) vulnerability in java/hudson/model/Cause.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to inject arbitrary web script or HTML via a \"remote cause note.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2067"
+}, {
+  "versionRange" : "(,2.303.2]",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21697",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier allows any agent to read and write the contents of any build directory stored in Jenkins with very few restrictions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21697"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-1000393",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier users with permission to create or configure agents in Jenkins could configure a launch method called 'Launch agent via execution of command on master'. This allowed them to run arbitrary shell commands on the master node whenever the agent was supposed to be launched. Configuration of this launch method now requires the Run Scripts permission typically only granted to administrators.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000393"
+}, {
+  "versionRange" : "(,1.447)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2012-0785",
+  "description" : "Hash collision attack vulnerability in Jenkins before 1.447, Jenkins LTS before 1.424.2, and Jenkins Enterprise by CloudBees 1.424.x before 1.424.2.1 and 1.400.x before 1.400.0.11 could allow remote attackers to cause a considerable CPU load, aka \"the Hash DoS attack.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0785"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10404",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not escape the reason why a queue items is blcoked in tooltips, resulting in a stored XSS vulnerability exploitable by users able to control parts of the reason a queue item is blocked, such as label expressions not matching any idle executors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10404"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1999042",
+  "description" : "A vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in XStream2.java that allows attackers to have Jenkins resolve a domain name when deserializing an instance of java.net.URL.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999042"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2602",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to an improper blacklisting of the Pipeline metadata files in the agent-to-master security subsystem. This could allow metadata files to be written to by malicious agents (SECURITY-358).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2602"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21687",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create symbolic links when unarchiving a symbolic link in FilePath#untar.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21687"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000399",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier remote API at /queue/item/(ID)/api showed information about tasks in the queue (typically builds waiting to start). This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API endpoint is now only available for tasks that the current user has access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000399"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2612",
+  "description" : "In Jenkins before versions 2.44, 2.32.2 low privilege users were able to override JDK download credentials (SECURITY-392), resulting in future builds possibly failing to download a JDK.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2612"
+}, {
+  "versionRange" : "(,2.319.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2022-20612",
+  "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins 2.329 and earlier, LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-20612"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 6.8,
+  "cveName" : "CVE-2013-0327",
+  "description" : "Cross-site request forgery (CSRF) vulnerability in Jenkins master in Jenkins before 1.502 and LTS before 1.480.3 allows remote attackers to hijack the authentication of users via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0327"
+}, {
+  "versionRange" : "(,2.107.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000193",
+  "description" : "A improper neutralization of control sequences vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in HudsonPrivateSecurityRealm.java that allows users to sign up using user names containing control characters that can then appear to have the same name as other users, and cannot be deleted via the UI.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000193"
+}, {
+  "versionRange" : "(,2.286)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-28165",
+  "description" : "In Eclipse Jetty 7.2.2 to 9.4.38, 10.0.0.alpha0 to 10.0.1, and 11.0.0.alpha0 to 11.0.1, CPU usage can reach 100% upon receiving a large invalid TLS frame.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-28165"
+}, {
+  "versionRange" : "(,2.94]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2017-1000504",
+  "description" : "A race condition during Jenkins 2.94 and earlier; 2.89.1 and earlier startup could result in the wrong order of execution of commands during initialization. There is a very short window of time after startup during which Jenkins may no longer show the 'Please wait while Jenkins is getting ready to work' message but Cross-Site Request Forgery (CSRF) protection may not yet be effective.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000504"
+}, {
+  "versionRange" : "[1.424.3,1.424.3]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3664",
+  "description" : "Directory traversal vulnerability in Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Overall/READ permission to read arbitrary files via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3664"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 7.4,
+  "cveName" : "CVE-2016-3726",
+  "description" : "Multiple open redirect vulnerabilities in Jenkins before 2.3 and LTS before 1.651.2 allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors related to \"scheme-relative\" URLs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3726"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2015-5323",
+  "description" : "Jenkins before 1.638 and LTS before 1.625.2 do not properly restrict access to API tokens which might allow remote administrators to gain privileges and run scripts by using an API token of another user.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5323"
+}, {
+  "versionRange" : "[1.642.1,1.642.1]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2016-0791",
+  "description" : "Jenkins before 1.650 and LTS before 1.642.2 do not use a constant-time algorithm to verify CSRF tokens, which makes it easier for remote attackers to bypass a CSRF protection mechanism via a brute-force approach.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0791"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2016-0788",
+  "description" : "The remoting module in Jenkins before 1.650 and LTS before 1.642.2 allows remote attackers to execute arbitrary code by opening a JRMP listener.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0788"
+}, {
+  "versionRange" : "[1.424.5,1.424.5]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2600",
+  "description" : "In jenkins before versions 2.44, 2.32.2 node monitor data could be viewed by low privilege users via the remote API. These included system configuration and runtime information of these nodes (SECURITY-343).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2600"
+}, {
+  "versionRange" : "(,2.89.3]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000067",
+  "description" : "An improper authorization vulnerability exists in Jenkins versions 2.106 and earlier, and LTS 2.89.3 and earlier, that allows an attacker to have Jenkins submit HTTP GET requests and get limited information about the response.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000067"
+}, {
+  "versionRange" : "[1.409.3,1.409.3]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-21688",
+  "description" : "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21688"
+}, {
+  "versionRange" : "(,2.171]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2019-1003049",
+  "description" : "Users who cached their CLI authentication before Jenkins was updated to 2.150.2 and newer, or 2.160 and newer, would remain authenticated in Jenkins 2.171 and earlier and Jenkins LTS 2.164.1 and earlier, because the fix for CVE-2019-1003004 in these releases did not reject existing remoting-based CLI authentication caches.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003049"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2060",
+  "description" : "The Winstone servlet container in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to hijack sessions via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2060"
+}, {
+  "versionRange" : "(,1.437]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2011-4344",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins Core in Jenkins before 1.438, and 1.409 LTS before 1.409.3 LTS, when a stand-alone container is used, allows remote attackers to inject arbitrary web script or HTML via vectors related to error messages.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2011-4344"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2611",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to an insufficient permission check for periodic processes (SECURITY-389). The URLs /workspaceCleanup and /fingerprintCleanup did not perform permission checks, allowing users with read access to Jenkins to trigger these background processes (that are otherwise performed daily), possibly causing additional load on Jenkins master and agents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2611"
+}, {
+  "versionRange" : "(,2.426.2]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2024-23897",
+  "description" : "Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-23897"
+}, {
+  "versionRange" : "(,2.56]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-1000356",
+  "description" : "Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to an issue in the Jenkins user database authentication realm: create an account if signup is enabled; or create an account if the victim is an administrator, possibly deleting the existing default admin user in the process and allowing a wide variety of impacts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000356"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2609",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to an information disclosure vulnerability in search suggestions (SECURITY-385). The autocomplete feature on the search box discloses the names of the views in its suggestions, including the ones for which the current user does not have access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2609"
+}, {
+  "versionRange" : "(,2.318]",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21697",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier allows any agent to read and write the contents of any build directory stored in Jenkins with very few restrictions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21697"
+}, {
+  "versionRange" : "[1.424.3,1.424.3]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,1.585]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2014-9635",
+  "description" : "Jenkins before 1.586 does not set the HttpOnly flag in a Set-Cookie header for session cookies when run on Tomcat 7.0.41 or later, which makes it easier for remote attackers to obtain potentially sensitive information via script access to cookies.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-9635"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21687",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create symbolic links when unarchiving a symbolic link in FilePath#untar.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21687"
+}, {
+  "versionRange" : "(,1.639]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2015-7539",
+  "description" : "The Plugins Manager in Jenkins before 1.640 and LTS before 1.625.2 does not verify checksums for plugin files referenced in update site data, which makes it easier for man-in-the-middle attackers to execute arbitrary code via a crafted plugin.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7539"
+}, {
+  "versionRange" : "[2.266,2.300)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-21671",
+  "description" : "Jenkins 2.299 and earlier, LTS 2.289.1 and earlier does not invalidate the previous session on login.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21671"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1999004",
+  "description" : "A Improper authorization vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in SlaveComputer.java that allows attackers with Overall/Read permission to initiate agent launches, and abort in-progress agent launches.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999004"
+}, {
+  "versionRange" : "(,2.153]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1000864",
+  "description" : "A denial of service vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in CronTab.java that allows attackers with Overall/Read permission to have a request handling thread enter an infinite loop.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000864"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3722",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with multiple accounts to cause a denial of service (unable to login) by editing the \"full name.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3722"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2606",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to an information exposure in the internal API that allows access to item names that should not be visible (SECURITY-380). This only affects anonymous users (other users legitimately have access) that were able to get a list of items via an UnprotectedRootAction.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2606"
+}, {
+  "versionRange" : "[1.424.4,1.424.4]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,2.159]",
+  "severity" : 7.2,
+  "cveName" : "CVE-2019-1003004",
+  "description" : "An improper authorization vulnerability exists in Jenkins 2.158 and earlier, LTS 2.150.1 and earlier in core/src/main/java/hudson/security/AuthenticationProcessingFilter2.java that allows attackers to extend the duration of active HTTP sessions indefinitely even though the user account may have been deleted in the mean time.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003004"
+}, {
+  "versionRange" : "(,2.441]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2024-23897",
+  "description" : "Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-23897"
+}, {
+  "versionRange" : "(,2.289.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21670",
+  "description" : "Jenkins 2.299 and earlier, LTS 2.289.1 and earlier allows users to cancel queue items and abort builds of jobs for which they have Item/Cancel permission even when they do not have Item/Read permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21670"
+}, {
+  "versionRange" : "[1.409.3,1.409.3]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,1.639]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2015-7537",
+  "description" : "Cross-site request forgery (CSRF) vulnerability in Jenkins before 1.640 and LTS before 1.625.2 allows remote attackers to hijack the authentication of administrators for requests that have unspecified impact via vectors related to the HTTP GET method.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7537"
+}, {
+  "versionRange" : "[1.409.1,1.409.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-0325",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.454, Jenkins LTS before 1.424.5, and Jenkins Enterprise 1.400.x before 1.400.0.13 and 1.424.x before 1.424.5.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2012-0324.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0325"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2013-0331",
+  "description" : "Jenkins before 1.502 and LTS before 1.480.3 allows remote authenticated users with write access to cause a denial of service via a crafted payload.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0331"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5320",
+  "description" : "Jenkins before 1.638 and LTS before 1.625.2 do not properly verify the shared secret used in JNLP slave connections, which allows remote attackers to connect as slaves and obtain sensitive information or possibly gain administrative access by leveraging knowledge of the name of a slave.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5320"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2016-3721",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 might allow remote authenticated users to inject arbitrary build parameters into the build environment via environment variables.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3721"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 5.9,
+  "cveName" : "CVE-2017-1000396",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier bundled a version of the commons-httpclient library with the vulnerability CVE-2012-6153 that incorrectly verified SSL certificates, making it susceptible to man-in-the-middle attacks. This library is widely used as a transitive dependency in Jenkins plugins. The fix for CVE-2012-6153 was backported to the version of commons-httpclient that is bundled in core and made available to plugins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000396"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1000408",
+  "description" : "A denial of service vulnerability exists in Jenkins 2.145 and earlier, LTS 2.138.1 and earlier in core/src/main/java/hudson/security/HudsonPrivateSecurityRealm.java that allows attackers without Overall/Read permission to access a specific URL on instances using the built-in Jenkins user database security realm that results in the creation of an ephemeral user record in memory.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000408"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2016-0790",
+  "description" : "Jenkins before 1.650 and LTS before 1.642.2 do not use a constant-time algorithm to verify API tokens, which makes it easier for remote attackers to determine API tokens via a brute-force approach.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0790"
+}, {
+  "versionRange" : "(,1.583)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2014-3681",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3681"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2017-1000394",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier bundled a version of the commons-fileupload library with the denial-of-service vulnerability known as CVE-2016-3092. The fix for that vulnerability has been backported to the version of the library bundled with Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000394"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1000406",
+  "description" : "A path traversal vulnerability exists in Jenkins 2.145 and earlier, LTS 2.138.1 and earlier in core/src/main/java/hudson/model/FileParameterValue.java that allows attackers with Job/Configure permission to define a file parameter with a file name outside the intended directory, resulting in an arbitrary file write on the Jenkins master when scheduling a build.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000406"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 6.0,
+  "cveName" : "CVE-2014-3663",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Job/CONFIGURE permission to bypass intended restrictions and create or destroy arbitrary jobs via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3663"
+}, {
+  "versionRange" : "(,2.235.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2222",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the job name in the 'Keep this build forever' badge tooltip, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2222"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2019-10406",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not restrict or filter values set as Jenkins URL in the global configuration, resulting in a stored XSS vulnerability exploitable by attackers with Overall/Administer permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10406"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21692",
+  "description" : "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21692"
+}, {
+  "versionRange" : "(,1.585]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2014-9634",
+  "description" : "Jenkins before 1.586 does not set the secure flag on session cookies when run on Tomcat 7.0.41 or later, which makes it easier for remote attackers to capture cookies by intercepting their transmission within an HTTP session.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-9634"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3727",
+  "description" : "The API URL computer/(master)/api/xml in Jenkins before 2.3 and LTS before 1.651.2 allows remote authenticated users with extended read permission for the master node to obtain sensitive information about the global configuration via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3727"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21690",
+  "description" : "Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21690"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 4.4,
+  "cveName" : "CVE-2023-27903",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a file parameter through the CLI, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27903"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-0324",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.454, Jenkins LTS before 1.424.5, and Jenkins Enterprise 1.400.x before 1.400.0.13 and 1.424.x before 1.424.5.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2012-0325.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0324"
+}, {
+  "versionRange" : "[2.270,2.394)",
+  "severity" : 9.6,
+  "cveName" : "CVE-2023-27898",
+  "description" : "Jenkins 2.270 through 2.393 (both inclusive), LTS 2.277.1 through 2.375.3 (both inclusive) does not escape the Jenkins version a plugin depends on when rendering the error message stating its incompatibility with the current version of Jenkins, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to provide plugins to the configured update sites and have this message shown by Jenkins instances.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27898"
+}, {
+  "versionRange" : "(,2.56]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2017-1000353",
+  "description" : "Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to an unauthenticated remote code execution. An unauthenticated remote code execution vulnerability allowed attackers to transfer a serialized Java `SignedObject` object to the Jenkins CLI, that would be deserialized using a new `ObjectInputStream`, bypassing the existing blacklist-based protection mechanism. We're fixing this issue by adding `SignedObject` to the blacklist. We're also backporting the new HTTP CLI protocol from Jenkins 2.54 to LTS 2.46.2, and deprecating the remoting-based (i.e. Java serialization) CLI protocol, disabling it by default.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000353"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2016-3721",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 might allow remote authenticated users to inject arbitrary build parameters into the build environment via environment variables.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3721"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-1000393",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier users with permission to create or configure agents in Jenkins could configure a launch method called 'Launch agent via execution of command on master'. This allowed them to run arbitrary shell commands on the master node whenever the agent was supposed to be launched. Configuration of this launch method now requires the Run Scripts permission typically only granted to administrators.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000393"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2103",
+  "description" : "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier exposed session identifiers on a user's detail object in the whoAmI diagnostic page.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2103"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2058",
+  "description" : "BuildTrigger in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to bypass access restrictions and execute arbitrary jobs by configuring a job to trigger another job. NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-7330.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2058"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2014-2063",
+  "description" : "Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to conduct clickjacking attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2063"
+}, {
+  "versionRange" : "(,2.44]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-2608",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to a remote code execution vulnerability involving the deserialization of various types in javax.imageio in XStream-based APIs (SECURITY-383).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2608"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21692",
+  "description" : "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21692"
+}, {
+  "versionRange" : "(,1.625.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2015-7536",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.640 and LTS before 1.625.2 allows remote authenticated users to inject arbitrary web script or HTML via unspecified vectors related to workspaces and archived artifacts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7536"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000399",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier remote API at /queue/item/(ID)/api showed information about tasks in the queue (typically builds waiting to start). This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API endpoint is now only available for tasks that the current user has access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000399"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2021-21603",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not escape notification bar response contents, resulting in a cross-site scripting (XSS) vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21603"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2016-0792",
+  "description" : "Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0792"
+}, {
+  "versionRange" : "(,2.185]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2019-10352",
+  "description" : "A path traversal vulnerability in Jenkins 2.185 and earlier, LTS 2.176.1 and earlier in core/src/main/java/hudson/model/FileParameterValue.java allowed attackers with Job/Configure permission to define a file parameter with a file name outside the intended directory, resulting in an arbitrary file write on the Jenkins master when scheduling a build.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10352"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21693",
+  "description" : "When creating temporary files, agent-to-controller access to create those files is only checked after they've been created in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21693"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2601",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in parameter names and descriptions (SECURITY-353). Users with the permission to configure jobs were able to inject JavaScript into parameter names and descriptions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2601"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2014-2068",
+  "description" : "The doIndex function in hudson/util/RemotingDiagnostics.java in CloudBees Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users with the ADMINISTER permission to obtain sensitive information via vectors related to heapDump.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2068"
+}, {
+  "versionRange" : "[1.424.4,1.424.4]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,2.424)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2023-43496",
+  "description" : "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier creates a temporary file in the system temporary directory with the default permissions for newly created files when installing a plugin from a URL, potentially allowing attackers with access to the system temporary directory to replace the file before it is installed in Jenkins, potentially resulting in arbitrary code execution.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43496"
+}, {
+  "versionRange" : "[1.424.3,1.424.3]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "(,2.427]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2023-44487",
+  "description" : "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-44487"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-3661",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to cause a denial of service (thread consumption) via vectors related to a CLI handshake.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3661"
+}, {
+  "versionRange" : "(,2.106]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000067",
+  "description" : "An improper authorization vulnerability exists in Jenkins versions 2.106 and earlier, and LTS 2.89.3 and earlier, that allows an attacker to have Jenkins submit HTTP GET requests and get limited information about the response.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000067"
+}, {
+  "versionRange" : "(,2.414.3)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2023-36478",
+  "description" : "Eclipse Jetty provides a web server and servlet container. In versions 11.0.0 through 11.0.15, 10.0.0 through 10.0.15, and 9.0.0 through 9.4.52, an integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to\nexceed their size limit. `MetaDataBuilder.java` determines if a header name or value exceeds the size limit, and throws an exception if the limit is exceeded. However, when length is very large and huffman is true, the multiplication by 4 in line 295\nwill overflow, and length will become negative. `(_size+length)` will now be negative, and the check on line 296 will not be triggered. Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be negative, potentially leading to a very large buffer allocation later on when the user-entered size is multiplied by 2. This means that if a user provides a negative length value (or, more precisely, a length value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a very large positive number when multiplied by 2, then the user can cause a very large buffer to be allocated on the server. Users of HTTP/2 can be impacted by a remote denial of service attack. The issue has been fixed in versions 11.0.16, 10.0.16, and 9.4.53. There are no known workarounds.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-36478"
+}, {
+  "versionRange" : "[2.81,2.94]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2017-1000503",
+  "description" : "A race condition during Jenkins 2.81 through 2.94 (inclusive); 2.89.1 startup could result in the wrong order of execution of commands during initialization. This could in rare cases result in failure to initialize the setup wizard on the first startup. This resulted in multiple security-related settings not being set to their usual strict default.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000503"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2020-2100",
+  "description" : "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier was vulnerable to a UDP amplification reflection denial of service attack on port 33848.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2100"
+}, {
+  "versionRange" : "(,1.482)",
+  "severity" : 6.1,
+  "cveName" : "CVE-2012-4439",
+  "description" : "Cross-site Scripting (XSS) in Jenkins main before 1.482 and LTS before 1.466.2 allows remote attackers to inject arbitrary web script or HTML via a crafted URL that points to Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-4439"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3725",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allows remote authenticated users to trigger updating of update site metadata by leveraging a missing permissions check. NOTE: this issue can be combined with DNS cache poisoning to cause a denial of service (service disruption).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3725"
+}, {
+  "versionRange" : "(,2.244]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2221",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the upstream job's display name shown as part of a build cause, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2221"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10401",
+  "description" : "In Jenkins 2.196 and earlier, LTS 2.176.3 and earlier, the f:expandableTextBox form control interpreted its content as HTML when expanded, resulting in a stored XSS vulnerability exploitable by users with permission to define its contents (typically Job/Configure).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10401"
+}, {
+  "versionRange" : "(,1.596.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2015-1812",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2015-1813.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1812"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 7.4,
+  "cveName" : "CVE-2016-3726",
+  "description" : "Multiple open redirect vulnerabilities in Jenkins before 2.3 and LTS before 1.651.2 allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors related to \"scheme-relative\" URLs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3726"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000395",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier provides information about Jenkins user accounts which is generally available to anyone with Overall/Read permissions via the /user/(username)/api remote API. This included e.g. Jenkins users' email addresses if the Mailer Plugin is installed. The remote API now no longer includes information beyond the most basic (user ID and name) unless the user requesting it is a Jenkins administrator.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000395"
+}, {
+  "versionRange" : "[1.424.4,1.424.4]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,1.580.3]",
+  "severity" : 4.6,
+  "cveName" : "CVE-2015-1810",
+  "description" : "The HudsonPrivateSecurityRealm class in Jenkins before 1.600 and LTS before 1.596.1 does not restrict access to reserved names when using the \"Jenkins' own user database\" setting, which allows remote attackers to gain privileges by creating a reserved name.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1810"
+}, {
+  "versionRange" : "(,1.605]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2015-1814",
+  "description" : "The API token-issuing service in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to gain privileges via a \"forced API token change\" involving anonymous users.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1814"
+}, {
+  "versionRange" : "(,2.176.2]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2019-10383",
+  "description" : "A stored cross-site scripting vulnerability in Jenkins 2.191 and earlier, LTS 2.176.2 and earlier allowed attackers with Overall/Administer permission to configure the update site URL to inject arbitrary HTML and JavaScript in update center web pages.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10383"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21689",
+  "description" : "FilePath#unzip and FilePath#untar were not subject to any agent-to-controller access control in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21689"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2014-2065",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to inject arbitrary web script or HTML via the iconSize cookie.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2065"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1999046",
+  "description" : "A exposure of sensitive information vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in Computer.java that allows attackers With Overall/Read permission to access the connection log for any agent.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999046"
+}, {
+  "versionRange" : "(,2.244]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2223",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape correctly the 'href' attribute of links to downstream jobs displayed in the build console page, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2223"
+}, {
+  "versionRange" : "(,1.605]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2015-1812",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2015-1813.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1812"
+}, {
+  "versionRange" : "(,1.514)",
+  "severity" : 2.1,
+  "cveName" : "CVE-2013-2033",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.514, LTS before 1.509.1, and Enterprise 1.466.x before 1.466.14.1 and 1.480.x before 1.480.4.1 allows remote authenticated users with write permission to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-2033"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "(,2.171]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-1003050",
+  "description" : "The f:validateButton form control for the Jenkins UI did not properly escape job URLs in Jenkins 2.171 and earlier and Jenkins LTS 2.164.1 and earlier, resulting in a cross-site scripting (XSS) vulnerability exploitable by users with the ability to control job names.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003050"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10401",
+  "description" : "In Jenkins 2.196 and earlier, LTS 2.176.3 and earlier, the f:expandableTextBox form control interpreted its content as HTML when expanded, resulting in a stored XSS vulnerability exploitable by users with permission to define its contents (typically Job/Configure).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10401"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2020-2102",
+  "description" : "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier used a non-constant time comparison function when validating an HMAC.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2102"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1000997",
+  "description" : "A path traversal vulnerability exists in the Stapler web framework used by Jenkins 2.145 and earlier, LTS 2.138.1 and earlier in core/src/main/java/org/kohsuke/stapler/Facet.java, groovy/src/main/java/org/kohsuke/stapler/jelly/groovy/GroovyFacet.java, jelly/src/main/java/org/kohsuke/stapler/jelly/JellyFacet.java, jruby/src/main/java/org/kohsuke/stapler/jelly/jruby/JRubyFacet.java, jsp/src/main/java/org/kohsuke/stapler/jsp/JSPFacet.java that allows attackers to render routable objects using any view in Jenkins, exposing internal information about those objects not intended to be viewed, such as their toString() representation.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000997"
+}, {
+  "versionRange" : "(,1.625.1]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2015-7537",
+  "description" : "Cross-site request forgery (CSRF) vulnerability in Jenkins before 1.640 and LTS before 1.625.2 allows remote attackers to hijack the authentication of administrators for requests that have unspecified impact via vectors related to the HTTP GET method.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7537"
+}, {
+  "versionRange" : "[1.424.3,1.424.3]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "[2.60.1,2.414.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2023-43494",
+  "description" : "Jenkins 2.50 through 2.423 (both inclusive), LTS 2.60.1 through 2.414.1 (both inclusive) does not exclude sensitive build variables (e.g., password parameter values) from the search in the build history widget, allowing attackers with Item/Read permission to obtain values of sensitive variables used in builds by iteratively testing different characters until the correct sequence is discovered.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43494"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 6.8,
+  "cveName" : "CVE-2015-5318",
+  "description" : "Jenkins before 1.638 and LTS before 1.625.2 uses a publicly accessible salt to generate CSRF protection tokens, which makes it easier for remote attackers to bypass the CSRF protection mechanism via a brute force attack.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5318"
+}, {
+  "versionRange" : "(,2.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3723",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with read access to obtain sensitive plugin installation information by leveraging missing permissions checks in unspecified XML/JSON API endpoints.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3723"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2021-21686",
+  "description" : "File path filters in the agent-to-controller security subsystem of Jenkins 2.318 and earlier, LTS 2.303.2 and earlier do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21686"
+}, {
+  "versionRange" : "(,2.31]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2016-9299",
+  "description" : "The remoting module in Jenkins before 2.32 and LTS before 2.19.3 allows remote attackers to execute arbitrary code via a crafted serialized Java object, which triggers an LDAP query to a third-party server.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-9299"
+}, {
+  "versionRange" : "(,2.185]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2019-10353",
+  "description" : "CSRF tokens in Jenkins 2.185 and earlier, LTS 2.176.1 and earlier did not expire, thereby allowing attackers able to obtain them to bypass CSRF protection.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10353"
+}, {
+  "versionRange" : "(,1.599]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2015-1808",
+  "description" : "Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users to cause a denial of service (improper plug-in and tool installation) via crafted update center data.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1808"
+}, {
+  "versionRange" : "(,2.153]",
+  "severity" : 8.2,
+  "cveName" : "CVE-2018-1000863",
+  "description" : "A data modification vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in User.java, IdStrategy.java that allows attackers to submit crafted user names that can cause an improper migration of user record storage formats, potentially preventing the victim from logging into Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000863"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1000409",
+  "description" : "A session fixation vulnerability exists in Jenkins 2.145 and earlier, LTS 2.138.1 and earlier in core/src/main/java/hudson/security/HudsonPrivateSecurityRealm.java that prevented Jenkins from invalidating the existing session and creating a new one when a user signed up for a new user account.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000409"
+}, {
+  "versionRange" : "[1.466.1,1.466.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "[1.424.5,1.424.5]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 2.2,
+  "cveName" : "CVE-2017-1000401",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier default form control for passwords and other secrets, <f:password/>, supports form validation (e.g. for API keys). The form validation AJAX requests were sent via GET, which could result in secrets being logged to a HTTP access log in non-default configurations of Jenkins, and made available to users with access to these log files. Form validation for <f:password/> is now always sent via POST, which is typically not logged.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000401"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2014-2065",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to inject arbitrary web script or HTML via the iconSize cookie.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2065"
+}, {
+  "versionRange" : "(,2.263.3)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2021-21615",
+  "description" : "Jenkins 2.275 and LTS 2.263.2 allows reading arbitrary files using the file browser for workspaces and archived artifacts due to a time-of-check to time-of-use (TOCTOU) race condition.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21615"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5317",
+  "description" : "The Fingerprints pages in Jenkins before 1.638 and LTS before 1.625.2 might allow remote attackers to obtain sensitive job and build name information via a direct request.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5317"
+}, {
+  "versionRange" : "[2.321,2.355]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34171",
+  "description" : "In Jenkins 2.321 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the HTML output generated for new symbol-based SVG icons includes the 'title' attribute of 'l:ionicon' (until Jenkins 2.334) and 'alt' attribute of 'l:icon' (since Jenkins 2.335) without further escaping, resulting in a cross-site scripting (XSS) vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34171"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2062",
+  "description" : "Jenkins before 1.551 and LTS before 1.532.2 does not invalidate the API token when a user is deleted, which allows remote authenticated users to retain access via the token.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2062"
+}, {
+  "versionRange" : "[2.340,2.355]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34172",
+  "description" : "In Jenkins 2.340 through 2.355 (both inclusive) symbol-based icons unescape previously escaped values of 'tooltip' parameters, resulting in a cross-site scripting (XSS) vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34172"
+}, {
+  "versionRange" : "(,2.150.1]",
+  "severity" : 7.2,
+  "cveName" : "CVE-2019-1003004",
+  "description" : "An improper authorization vulnerability exists in Jenkins 2.158 and earlier, LTS 2.150.1 and earlier in core/src/main/java/hudson/security/AuthenticationProcessingFilter2.java that allows attackers to extend the duration of active HTTP sessions indefinitely even though the user account may have been deleted in the mean time.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003004"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21694",
+  "description" : "FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21694"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3667",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 does not properly prevent downloading of plugins, which allows remote authenticated users with the Overall/READ permission to obtain sensitive information by reading the plugin code.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3667"
+}, {
+  "versionRange" : "(,2.138.3]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000862",
+  "description" : "An information exposure vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in DirectoryBrowserSupport.java that allows attackers with the ability to control build output to browse the file system on agents running builds beyond the duration of the build using the workspace browser.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000862"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2059",
+  "description" : "Directory traversal vulnerability in the CLI job creation (hudson/cli/CreateJobCommand.java) in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to overwrite arbitrary files via the job name.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2059"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 6.1,
+  "cveName" : "CVE-2018-1000407",
+  "description" : "A cross-site scripting vulnerability exists in Jenkins 2.145 and earlier, LTS 2.138.1 and earlier in core/src/main/java/hudson/model/Api.java that allows attackers to specify URLs to Jenkins that result in rendering arbitrary attacker-controlled HTML by Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000407"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21694",
+  "description" : "FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21694"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 8.0,
+  "cveName" : "CVE-2021-21604",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows attackers with permission to create or configure various objects to inject crafted content into Old Data Monitor that results in the instantiation of potentially unsafe objects once discarded by an administrator.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21604"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2059",
+  "description" : "Directory traversal vulnerability in the CLI job creation (hudson/cli/CreateJobCommand.java) in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to overwrite arbitrary files via the job name.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2059"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2021-21695",
+  "description" : "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21695"
+}, {
+  "versionRange" : "(,2.83]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000395",
+  "description" : "Jenkins 2.73.1 and earlier, 2.83 and earlier provides information about Jenkins user accounts which is generally available to anyone with Overall/Read permissions via the /user/(username)/api remote API. This included e.g. Jenkins users' email addresses if the Mailer Plugin is installed. The remote API now no longer includes information beyond the most basic (user ID and name) unless the user requesting it is a Jenkins administrator.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000395"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2607",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting vulnerability in console notes (SECURITY-382). Jenkins allows plugins to annotate build logs, adding new content or changing the presentation of existing content while the build is running. Malicious Jenkins users, or users with SCM access, could configure jobs or modify build scripts such that they print serialized console notes that perform cross-site scripting attacks on Jenkins users viewing the build logs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2607"
+}, {
+  "versionRange" : "(,2.235.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2221",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the upstream job's display name shown as part of a build cause, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2221"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3664",
+  "description" : "Directory traversal vulnerability in Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Overall/READ permission to read arbitrary files via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3664"
+}, {
+  "versionRange" : "[1.409.1,1.409.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-0324",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.454, Jenkins LTS before 1.424.5, and Jenkins Enterprise 1.400.x before 1.400.0.13 and 1.424.x before 1.424.5.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2012-0325.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0324"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 6.1,
+  "cveName" : "CVE-2021-21610",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not implement any restrictions for the URL rendering a formatted preview of markup passed as a query parameter, resulting in a reflected cross-site scripting (XSS) vulnerability if the configured markup formatter does not prohibit unsafe elements (JavaScript) in markup.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21610"
+}, {
+  "versionRange" : "(,1.466.2]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21689",
+  "description" : "FilePath#unzip and FilePath#untar were not subject to any agent-to-controller access control in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21689"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2014-2063",
+  "description" : "Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to conduct clickjacking attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2063"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21606",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier improperly validates the format of a provided fingerprint ID when checking for its existence allowing an attacker to check for the existence of XML files with a short path.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21606"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2021-21607",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not limit sizes provided as query parameters to graph-rendering URLs, allowing attackers to request crafted URLs that use all available memory in Jenkins, potentially leading to out of memory errors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21607"
+}, {
+  "versionRange" : "(,2.132]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1999006",
+  "description" : "A exposure of sensitive information vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in Plugin.java that allows attackers to determine the date and time when a plugin HPI/JPI file was last extracted, which typically is the date of the most recent installation/upgrade.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999006"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-3662",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to enumerate user names via vectors related to login attempts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3662"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 8.0,
+  "cveName" : "CVE-2021-21605",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows users with Agent/Configure permission to choose agent names that cause Jenkins to override the global `config.xml` file.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21605"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2021-21611",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not escape display names and IDs of item types shown on the New Item page, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to specify display names or IDs of item types.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21611"
+}, {
+  "versionRange" : "(,2.88]",
+  "severity" : 7.3,
+  "cveName" : "CVE-2017-1000391",
+  "description" : "Jenkins versions 2.88 and earlier and 2.73.2 and earlier stores metadata related to 'people', which encompasses actual user accounts, as well as users appearing in SCM, in directories corresponding to the user ID on disk. These directories used the user ID for their name without additional escaping, potentially resulting in problems like overwriting of unrelated configuration files.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000391"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2016-3724",
+  "description" : "Jenkins before 2.3 and LTS before 1.651.2 allow remote authenticated users with extended read access to obtain sensitive password information by reading a job configuration.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3724"
+}, {
+  "versionRange" : "(,2.361.1)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-2048",
+  "description" : "In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-2048"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2600",
+  "description" : "In jenkins before versions 2.44, 2.32.2 node monitor data could be viewed by low privilege users via the remote API. These included system configuration and runtime information of these nodes (SECURITY-343).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2600"
+}, {
+  "versionRange" : "[2.217,2.441]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2024-23898",
+  "description" : "Jenkins 2.217 through 2.441 (both inclusive), LTS 2.222.1 through 2.426.2 (both inclusive) does not perform origin validation of requests made through the CLI WebSocket endpoint, resulting in a cross-site WebSocket hijacking (CSWSH) vulnerability, allowing attackers to execute CLI commands on the Jenkins controller.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-23898"
+}, {
+  "versionRange" : "(,2.145]",
+  "severity" : 7.8,
+  "cveName" : "CVE-2018-1000410",
+  "description" : "An information exposure vulnerability exists in Jenkins 2.145 and earlier, LTS 2.138.1 and earlier, and the Stapler framework used by these releases, in core/src/main/java/org/kohsuke/stapler/RequestImpl.java, core/src/main/java/hudson/model/Descriptor.java that allows attackers with Overall/Administer permission or access to the local file system to obtain credentials entered by users if the form submission could not be successfully processed.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000410"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-3661",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to cause a denial of service (thread consumption) via vectors related to a CLI handshake.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3661"
+}, {
+  "versionRange" : "[1.424.5,1.424.5]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,2.277.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21640",
+  "description" : "Jenkins 2.286 and earlier, LTS 2.277.1 and earlier does not properly check that a newly created view has an allowed name, allowing attackers with View/Create permission to create views with invalid or already-used names.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21640"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2058",
+  "description" : "BuildTrigger in Jenkins before 1.551 and LTS before 1.532.2 allows remote authenticated users to bypass access restrictions and execute arbitrary jobs by configuring a job to trigger another job. NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-7330.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2058"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2015-5325",
+  "description" : "Jenkins before 1.638 and LTS before 1.625.2 allow attackers to bypass intended slave-to-master access restrictions by leveraging a JNLP slave. NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-3665.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5325"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2020-2104",
+  "description" : "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier allowed users with Overall/Read access to view a JVM memory usage chart.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2104"
+}, {
+  "versionRange" : "(,2.319)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2021-21695",
+  "description" : "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21695"
+}, {
+  "versionRange" : "(,2.314]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21682",
+  "description" : "Jenkins 2.314 and earlier, LTS 2.303.1 and earlier accepts names of jobs and other entities with a trailing dot character, potentially replacing the configuration and data of other entities on Windows.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21682"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 3.5,
+  "cveName" : "CVE-2017-2603",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to a user data leak in disconnected agents' config.xml API. This could leak sensitive data such as API tokens (SECURITY-362).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2603"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 8.6,
+  "cveName" : "CVE-2020-2099",
+  "description" : "Jenkins 2.213 and earlier, LTS 2.204.1 and earlier improperly reuses encryption key parameters in the Inbound TCP Agent Protocol/3, allowing unauthorized attackers with knowledge of agent names to obtain the connection secrets for those agents, which can be used to connect to Jenkins, impersonating those agents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2099"
+}, {
+  "versionRange" : "(,1.599]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2015-1806",
+  "description" : "The combination filter Groovy script in Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users with job configuration permission to gain privileges and execute arbitrary code on the master via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1806"
+}, {
+  "versionRange" : "(,2.138.3]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1000864",
+  "description" : "A denial of service vulnerability exists in Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in CronTab.java that allows attackers with Overall/Read permission to have a request handling thread enter an infinite loop.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000864"
+}, {
+  "versionRange" : "(,2.424)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2023-43498",
+  "description" : "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using MultipartFormDataParser creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-43498"
+}, {
+  "versionRange" : "(,2.120]",
+  "severity" : 8.1,
+  "cveName" : "CVE-2018-1000194",
+  "description" : "A path traversal vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in FilePath.java, SoloFilePathFilter.java that allows malicious agents to read and write arbitrary files on the Jenkins master, bypassing the agent-to-master security subsystem protection.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000194"
+}, {
+  "versionRange" : "(,2.227]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2163",
+  "description" : "Jenkins 2.227 and earlier, LTS 2.204.5 and earlier improperly processes HTML content of list view column headers, resulting in a stored XSS vulnerability exploitable by users able to control column headers.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2163"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2599",
+  "description" : "Jenkins before versions 2.44 and 2.32.2 is vulnerable to an insufficient permission check. This allows users with permissions to create new items (e.g. jobs) to overwrite existing items they don't have access to (SECURITY-321).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2599"
+}, {
+  "versionRange" : "(,2.56]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2017-1000354",
+  "description" : "Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to a login command which allowed impersonating any Jenkins user. The `login` command available in the remoting-based CLI stored the encrypted user name of the successfully authenticated user in a cache file used to authenticate further commands. Users with sufficient permission to create secrets in Jenkins, and download their encrypted values (e.g. with Job/Configure permission), were able to impersonate any other Jenkins user on the same instance.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000354"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2021-21602",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows reading arbitrary files using the file browser for workspaces and archived artifacts by following symlinks.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21602"
+}, {
+  "versionRange" : "(,1.625.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2015-7539",
+  "description" : "The Plugins Manager in Jenkins before 1.640 and LTS before 1.625.2 does not verify checksums for plugin files referenced in update site data, which makes it easier for man-in-the-middle attackers to execute arbitrary code via a crafted plugin.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-7539"
+}, {
+  "versionRange" : "(,2.191]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2019-10383",
+  "description" : "A stored cross-site scripting vulnerability in Jenkins 2.191 and earlier, LTS 2.176.2 and earlier allowed attackers with Overall/Administer permission to configure the update site URL to inject arbitrary HTML and JavaScript in update center web pages.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10383"
+}, {
+  "versionRange" : "(,2.105]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2018-1000169",
+  "description" : "An exposure of sensitive information vulnerability exists in Jenkins 2.115 and older, LTS 2.107.1 and older, in CLICommand.java and ViewOptionHandler.java that allows unauthorized attackers to confirm the existence of agents or views with an attacker-specified name by sending a CLI command to Jenkins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000169"
+}, {
+  "versionRange" : "[1.409.3,1.409.3]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,2.88]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2017-1000392",
+  "description" : "Jenkins 2.88 and earlier; 2.73.2 and earlier Autocompletion suggestions for text fields were not escaped, resulting in a persisted cross-site scripting vulnerability if the source for the suggestions allowed specifying text that includes HTML metacharacters like less-than and greater-than characters.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000392"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2016-0791",
+  "description" : "Jenkins before 1.650 and LTS before 1.642.2 do not use a constant-time algorithm to verify CSRF tokens, which makes it easier for remote attackers to bypass a CSRF protection mechanism via a brute-force approach.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0791"
+}, {
+  "versionRange" : "(,2.73.2]",
+  "severity" : 4.8,
+  "cveName" : "CVE-2017-1000392",
+  "description" : "Jenkins 2.88 and earlier; 2.73.2 and earlier Autocompletion suggestions for text fields were not escaped, resulting in a persisted cross-site scripting vulnerability if the source for the suggestions allowed specifying text that includes HTML metacharacters like less-than and greater-than characters.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000392"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2023-27900",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in hudson.util.MultipartFormDataParser, allowing attackers to trigger a denial of service.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27900"
+}, {
+  "versionRange" : "(,2.329]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2022-20612",
+  "description" : "A cross-site request forgery (CSRF) vulnerability in Jenkins 2.329 and earlier, LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-20612"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2607",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting vulnerability in console notes (SECURITY-382). Jenkins allows plugins to annotate build logs, adding new content or changing the presentation of existing content while the build is running. Malicious Jenkins users, or users with SCM access, could configure jobs or modify build scripts such that they print serialized console notes that perform cross-site scripting attacks on Jenkins users viewing the build logs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2607"
+}, {
+  "versionRange" : "(,2.227]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2161",
+  "description" : "Jenkins 2.227 and earlier, LTS 2.204.5 and earlier does not properly escape node labels that are shown in the form validation for label expressions on job configuration pages, resulting in a stored XSS vulnerability exploitable by users able to define node labels.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2161"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5321",
+  "description" : "The sidepanel widgets in the CLI command overview and help pages in Jenkins before 1.638 and LTS before 1.625.2 allow remote attackers to obtain sensitive information via a direct request to the pages.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5321"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1999005",
+  "description" : "A cross-site scripting vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in BuildTimelineWidget.java, BuildTimelineWidget/control.jelly that allows attackers with Job/Configure permission to define JavaScript that would be executed in another user's browser when that other user performs some UI actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999005"
+}, {
+  "versionRange" : "(,2.251]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2231",
+  "description" : "Jenkins 2.251 and earlier, LTS 2.235.3 and earlier does not escape the remote address of the host starting a build via 'Trigger builds remotely', resulting in a stored cross-site scripting (XSS) vulnerability exploitable by users with Job/Configure permission or knowledge of the Authentication Token.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2231"
+}, {
+  "versionRange" : "(,2.286]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21640",
+  "description" : "Jenkins 2.286 and earlier, LTS 2.277.1 and earlier does not properly check that a newly created view has an allowed name, allowing attackers with View/Create permission to create views with invalid or already-used names.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21640"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2064",
+  "description" : "The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2064"
+}, {
+  "versionRange" : "(,2.176.2]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2019-10384",
+  "description" : "Jenkins 2.191 and earlier, LTS 2.176.2 and earlier allowed users to obtain CSRF tokens without an associated web session ID, resulting in CSRF tokens that did not expire and could be used to bypass CSRF protection for the anonymous user.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10384"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2013-7330",
+  "description" : "Jenkins before 1.502 allows remote authenticated users to configure an otherwise restricted project via vectors related to post-build actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-7330"
+}, {
+  "versionRange" : "(,1.466.2]",
+  "severity" : 2.6,
+  "cveName" : "CVE-2013-0158",
+  "description" : "Unspecified vulnerability in Jenkins before 1.498, Jenkins LTS before 1.480.2, and Jenkins Enterprise 1.447.x before 1.447.6.1 and 1.466.x before 1.466.12.1, when a slave is attached and anonymous read access is enabled, allows remote attackers to obtain the master cryptographic key via unknown vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0158"
+}, {
+  "versionRange" : "(,2.121.1]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2018-1999001",
+  "description" : "A unauthorized modification of configuration vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in User.java that allows attackers to provide crafted login credentials that cause Jenkins to move the config.xml file from the Jenkins home directory. If Jenkins is started without this file present, it will revert to the legacy defaults of granting administrator access to anonymous users.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999001"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2598",
+  "description" : "Jenkins before versions 2.44, 2.32.2 uses AES ECB block cipher mode without IV for encrypting secrets which makes Jenkins and the stored secrets vulnerable to unnecessary risks (SECURITY-304).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2598"
+}, {
+  "versionRange" : "(,1.596.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2015-1813",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2015-1812.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1813"
+}, {
+  "versionRange" : "(,2.93]",
+  "severity" : 4.7,
+  "cveName" : "CVE-2017-17383",
+  "description" : "Jenkins through 2.93 allows remote authenticated administrators to conduct XSS attacks via a crafted tool name in a job configuration form, as demonstrated by the JDK tool in Jenkins core and the Ant tool in the Ant plugin, aka SECURITY-624.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-17383"
+}, {
+  "versionRange" : "(,2.274]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2021-21608",
+  "description" : "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier does not escape button labels in the Jenkins UI, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with the ability to control button labels.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21608"
+}, {
+  "versionRange" : "(,1.532.1]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2014-2062",
+  "description" : "Jenkins before 1.551 and LTS before 1.532.2 does not invalidate the API token when a user is deleted, which allows remote authenticated users to retain access via the token.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2062"
+}, {
+  "versionRange" : "(,1.424.2)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2012-0785",
+  "description" : "Hash collision attack vulnerability in Jenkins before 1.447, Jenkins LTS before 1.424.2, and Jenkins Enterprise by CloudBees 1.424.x before 1.424.2.1 and 1.400.x before 1.400.0.11 could allow remote attackers to cause a considerable CPU load, aka \"the Hash DoS attack.\"",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0785"
+}, {
+  "versionRange" : "(,2.150.1]",
+  "severity" : 7.2,
+  "cveName" : "CVE-2019-1003003",
+  "description" : "An improper authorization vulnerability exists in Jenkins 2.158 and earlier, LTS 2.150.1 and earlier in core/src/main/java/hudson/security/TokenBasedRememberMeServices2.java that allows attackers with Overall/RunScripts permission to craft Remember Me cookies that would never expire, allowing e.g. to persist access to temporarily compromised user accounts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-1003003"
+}, {
+  "versionRange" : "(,2.244]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2220",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the agent name in the build time trend page, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2220"
+}, {
+  "versionRange" : "(,1.638)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2015-8103",
+  "description" : "The Jenkins CLI subsystem in Jenkins before 1.638 and LTS before 1.625.2 allows remote attackers to execute arbitrary code via a crafted serialized Java object, related to a problematic webapps/ROOT/WEB-INF/lib/commons-collections-*.jar file and the \"Groovy variant in 'ysoserial'\".",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-8103"
+}, {
+  "versionRange" : "(,2.185]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2019-10354",
+  "description" : "A vulnerability in the Stapler web framework used in Jenkins 2.185 and earlier, LTS 2.176.1 and earlier allowed attackers to access view fragments directly, bypassing permission checks and possibly obtain sensitive information.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10354"
+}, {
+  "versionRange" : "(,1.605]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2015-1813",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.606 and LTS before 1.596.2 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2015-1812.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1813"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2611",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to an insufficient permission check for periodic processes (SECURITY-389). The URLs /workspaceCleanup and /fingerprintCleanup did not perform permission checks, allowing users with read access to Jenkins to trigger these background processes (that are otherwise performed daily), possibly causing additional load on Jenkins master and agents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2611"
+}, {
+  "versionRange" : "[1.409.2,1.409.2]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2012-6074",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote authenticated users with write access to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6074"
+}, {
+  "versionRange" : "(,2.286]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21639",
+  "description" : "Jenkins 2.286 and earlier, LTS 2.277.1 and earlier does not validate the type of object created after loading the data submitted to the `config.xml` REST API endpoint of a node, allowing attackers with Computer/Configure permission to replace a node with one of a different type.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21639"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2602",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to an improper blacklisting of the Pipeline metadata files in the agent-to-master security subsystem. This could allow metadata files to be written to by malicious agents (SECURITY-358).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2602"
+}, {
+  "versionRange" : "(,2.227]",
+  "severity" : 8.8,
+  "cveName" : "CVE-2020-2160",
+  "description" : "Jenkins 2.227 and earlier, LTS 2.204.5 and earlier uses different representations of request URL paths, which allows attackers to craft URLs that allow bypassing CSRF protection of any target URL.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2160"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2023-27904",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier prints an error stack trace on agent-related pages when agent connections are broken, potentially revealing information about Jenkins configuration that is otherwise inaccessible to attackers.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27904"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2023-27902",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier shows temporary directories related to job workspaces, which allows attackers with Item/Workspace permission to access their contents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27902"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10405",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier printed the value of the \"Cookie\" HTTP request header on the /whoAmI/ URL, allowing attackers exploiting another XSS vulnerability to obtain the HTTP session cookie despite it being marked HttpOnly.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10405"
+}, {
+  "versionRange" : "[2.340,2.355]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2022-34173",
+  "description" : "In Jenkins 2.340 through 2.355 (both inclusive) the tooltip of the build button in list views supports HTML without escaping the job display name, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34173"
+}, {
+  "versionRange" : "(,1.649]",
+  "severity" : 6.1,
+  "cveName" : "CVE-2016-0789",
+  "description" : "CRLF injection vulnerability in the CLI command documentation in Jenkins before 1.650 and LTS before 1.642.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-0789"
+}, {
+  "versionRange" : "(,2.137]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2018-1999044",
+  "description" : "A denial of service vulnerability exists in Jenkins 2.137 and earlier, 2.121.2 and earlier in CronTab.java that allows attackers with Overall/Read permission to have a request handling thread enter an infinite loop.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1999044"
+}, {
+  "versionRange" : "(,2.105]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2018-1000170",
+  "description" : "A cross-site scripting vulnerability exists in Jenkins 2.115 and older, LTS 2.107.1 and older, in confirmationList.jelly and stopButton.jelly that allows attackers with Job/Configure and/or Job/Create permission to create an item name containing JavaScript that would be executed in another user's browser when that other user performs some UI actions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000170"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2613",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a user creation CSRF using GET by admins. While this user record was only retained until restart in most cases, administrators' web browsers could be manipulated to create a large number of user records (SECURITY-406).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2613"
+}, {
+  "versionRange" : "(,2.235.1]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2220",
+  "description" : "Jenkins 2.244 and earlier, LTS 2.235.1 and earlier does not escape the agent name in the build time trend page, resulting in a stored cross-site scripting vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2220"
+}, {
+  "versionRange" : "(,2.300)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21670",
+  "description" : "Jenkins 2.299 and earlier, LTS 2.289.1 and earlier allows users to cancel queue items and abort builds of jobs for which they have Item/Cancel permission even when they do not have Item/Read permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21670"
+}, {
+  "versionRange" : "(,2.176.3]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10404",
+  "description" : "Jenkins 2.196 and earlier, LTS 2.176.3 and earlier did not escape the reason why a queue items is blcoked in tooltips, resulting in a stored XSS vulnerability exploitable by users able to control parts of the reason a queue item is blocked, such as label expressions not matching any idle executors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10404"
+}, {
+  "versionRange" : "(,2.277.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2021-21639",
+  "description" : "Jenkins 2.286 and earlier, LTS 2.277.1 and earlier does not validate the type of object created after loading the data submitted to the `config.xml` REST API endpoint of a node, allowing attackers with Computer/Configure permission to replace a node with one of a different type.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21639"
+}, {
+  "versionRange" : "(,2.332.3]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-34174",
+  "description" : "In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34174"
+}, {
+  "versionRange" : "(,1.599]",
+  "severity" : 4.6,
+  "cveName" : "CVE-2015-1810",
+  "description" : "The HudsonPrivateSecurityRealm class in Jenkins before 1.600 and LTS before 1.596.1 does not restrict access to reserved names when using the \"Jenkins' own user database\" setting, which allows remote attackers to gain privileges by creating a reserved name.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1810"
+}, {
+  "versionRange" : "(,1.550]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-2061",
+  "description" : "The input control in PasswordParameterDefinition in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to obtain passwords by reading the HTML source code, related to the default value.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-2061"
+}, {
+  "versionRange" : "(,1.565.2]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2014-3662",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to enumerate user names via vectors related to login attempts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3662"
+}, {
+  "versionRange" : "(,2.400)",
+  "severity" : 8.0,
+  "cveName" : "CVE-2023-35141",
+  "description" : "In Jenkins 2.399 and earlier, LTS 2.387.3 and earlier, POST requests are sent in order to load the list of context actions. If part of the URL includes insufficiently escaped user-provided values, a victim may be tricked into sending a POST request to an unexpected endpoint by opening a context menu.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-35141"
+}, {
+  "versionRange" : "(,2.334)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-0538",
+  "description" : "Jenkins 2.333 and earlier, LTS 2.319.2 and earlier defines custom XStream converters that have not been updated to apply the protections for the vulnerability CVE-2021-43859 and allow unconstrained resource usage.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-0538"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5324",
+  "description" : "Jenkins before 1.638 and LTS before 1.625.2 allow remote attackers to obtain sensitive information via a direct request to queue/api.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5324"
+}, {
+  "versionRange" : "[1.424.5,1.424.5]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "(,2.428)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2023-36478",
+  "description" : "Eclipse Jetty provides a web server and servlet container. In versions 11.0.0 through 11.0.15, 10.0.0 through 10.0.15, and 9.0.0 through 9.4.52, an integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to\nexceed their size limit. `MetaDataBuilder.java` determines if a header name or value exceeds the size limit, and throws an exception if the limit is exceeded. However, when length is very large and huffman is true, the multiplication by 4 in line 295\nwill overflow, and length will become negative. `(_size+length)` will now be negative, and the check on line 296 will not be triggered. Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be negative, potentially leading to a very large buffer allocation later on when the user-entered size is multiplied by 2. This means that if a user provides a negative length value (or, more precisely, a length value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a very large positive number when multiplied by 2, then the user can cause a very large buffer to be allocated on the server. Users of HTTP/2 can be impacted by a remote denial of service attack. The issue has been fixed in versions 11.0.16, 10.0.16, and 9.4.53. There are no known workarounds.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-36478"
+}, {
+  "versionRange" : "(,2.196]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2019-10402",
+  "description" : "In Jenkins 2.196 and earlier, LTS 2.176.3 and earlier, the f:combobox form control interpreted its item labels as HTML, resulting in a stored XSS vulnerability exploitable by users with permission to define its contents.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10402"
+}, {
+  "versionRange" : "(,1.466.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "(,2.218]",
+  "severity" : 5.3,
+  "cveName" : "CVE-2020-2101",
+  "description" : "Jenkins 2.218 and earlier, LTS 2.204.1 and earlier did not use a constant-time comparison function for validating connection secrets, which could potentially allow an attacker to use a timing attack to obtain this secret.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2101"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000400",
+  "description" : "The Jenkins 2.73.1 and earlier, 2.83 and earlier remote API at /job/(job-name)/api contained information about upstream and downstream projects. This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API now only lists upstream and downstream projects that the current user has access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000400"
+}, {
+  "versionRange" : "(,1.580.3]",
+  "severity" : 6.5,
+  "cveName" : "CVE-2015-1806",
+  "description" : "The combination filter Groovy script in Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users with job configuration permission to gain privileges and execute arbitrary code on the master via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1806"
+}, {
+  "versionRange" : "(,2.32.2)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2606",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to an information exposure in the internal API that allows access to item names that should not be visible (SECURITY-380). This only affects anonymous users (other users legitimately have access) that were able to get a list of items via an UnprotectedRootAction.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2606"
+}, {
+  "versionRange" : "(,1.637]",
+  "severity" : 5.0,
+  "cveName" : "CVE-2015-5322",
+  "description" : "Directory traversal vulnerability in Jenkins before 1.638 and LTS before 1.625.2 allows remote attackers to list directory contents and read arbitrary files in the Jenkins servlet resources via directory traversal sequences in a request to jnlpJars/.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-5322"
+}, {
+  "versionRange" : "(,2.251]",
+  "severity" : 5.4,
+  "cveName" : "CVE-2020-2230",
+  "description" : "Jenkins 2.251 and earlier, LTS 2.235.3 and earlier does not escape the project naming strategy description, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by users with Overall/Manage permission.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2230"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-2609",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to an information disclosure vulnerability in search suggestions (SECURITY-385). The autocomplete feature on the search box discloses the names of the views in its suggestions, including the ones for which the current user does not have access to.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2609"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-21685",
+  "description" : "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create parent directories in FilePath#mkdirs.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21685"
+}, {
+  "versionRange" : "[1.466.1,1.466.1]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2012-6073",
+  "description" : "Open redirect vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6073"
+}, {
+  "versionRange" : "(,1.501]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2013-0328",
+  "description" : "Cross-site scripting (XSS) vulnerability in Jenkins before 1.502 and LTS before 1.480.3 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0328"
+}, {
+  "versionRange" : "(,1.599]",
+  "severity" : 3.5,
+  "cveName" : "CVE-2015-1807",
+  "description" : "Directory traversal vulnerability in Jenkins before 1.600 and LTS before 1.596.1 allows remote authenticated users with certain permissions to read arbitrary files via a symlink, related to building artifacts.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2015-1807"
+}, {
+  "versionRange" : "(,2.303.3)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-21691",
+  "description" : "Creating symbolic links is possible without the 'symlink' agent-to-controller access control permission in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-21691"
+}, {
+  "versionRange" : "(,2.107.2]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000192",
+  "description" : "A information exposure vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in AboutJenkins.java, ListPluginsCommand.java that allows users with Overall/Read access to enumerate all installed plugins.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000192"
+}, {
+  "versionRange" : "[1.424.4,1.424.4]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "[2.335,2.355]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-34175",
+  "description" : "Jenkins 2.335 through 2.355 (both inclusive) allows attackers in some cases to bypass a protection mechanism, thereby directly accessing some view fragments containing sensitive information, bypassing any permission checks in the corresponding view.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-34175"
+}, {
+  "versionRange" : "(,1.582]",
+  "severity" : 4.0,
+  "cveName" : "CVE-2014-3680",
+  "description" : "Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Job/READ permission to obtain the default value for the password field of a parameterized job by reading the DOM.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3680"
+}, {
+  "versionRange" : "(,2.120]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2018-1000195",
+  "description" : "A server-side request forgery vulnerability exists in Jenkins 2.120 and older, LTS 2.107.2 and older in ZipExtractionInstaller.java that allows users with Overall/Read permission to have Jenkins submit a HTTP GET request to an arbitrary URL and learn whether the response is successful (200) or not.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000195"
+}, {
+  "versionRange" : "(,2.73.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2017-1000398",
+  "description" : "The remote API in Jenkins 2.73.1 and earlier, 2.83 and earlier at /computer/(agent-name)/api showed information about tasks (typically builds) currently running on that agent. This included information about tasks that the current user otherwise has no access to, e.g. due to lack of Item/Read permission. This has been fixed, and the API now only shows information about accessible tasks.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-1000398"
+}, {
+  "versionRange" : "[1.409.3,1.409.3]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2012-6072",
+  "description" : "CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-6072"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2610",
+  "description" : "jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in search suggestions due to improperly escaping users with less-than and greater-than characters in their names (SECURITY-388).",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2610"
+}, {
+  "versionRange" : "(,2.138.3]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2018-1000861",
+  "description" : "A code execution vulnerability exists in the Stapler web framework used by Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in stapler/core/src/main/java/org/kohsuke/stapler/MetaClass.java that allows attackers to invoke some methods on Java objects by accessing crafted URLs that were not intended to be invoked this way.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2018-1000861"
+}, {
+  "versionRange" : "(,1.482)",
+  "severity" : 6.1,
+  "cveName" : "CVE-2012-4441",
+  "description" : "Cross-site Scripting (XSS) in Jenkins main before 1.482 and LTS before 1.466.2 allows remote attackers to inject arbitrary web script or HTML in the CI game plugin.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2012-4441"
+}, {
+  "versionRange" : "(,2.44)",
+  "severity" : 5.4,
+  "cveName" : "CVE-2017-2601",
+  "description" : "Jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in parameter names and descriptions (SECURITY-353). Users with the permission to configure jobs were able to inject JavaScript into parameter names and descriptions.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-2601"
+}, {
+  "versionRange" : "(,2.394)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2023-27901",
+  "description" : "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in org.kohsuke.stapler.RequestImpl, allowing attackers to trigger a denial of service.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-27901"
+}, {
+  "versionRange" : "(,2.236)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2020-2251",
+  "description" : "Jenkins SoapUI Pro Functional Testing Plugin 1.5 and earlier transmits project passwords in its configuration in plain text as part of job configuration forms, potentially resulting in their exposure.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-2251"
+}, {
+  "versionRange" : "(,1.651.1]",
+  "severity" : 4.3,
+  "cveName" : "CVE-2016-3727",
+  "description" : "The API URL computer/(master)/api/xml in Jenkins before 2.3 and LTS before 1.651.2 allows remote authenticated users with extended read permission for the master node to obtain sensitive information about the global configuration via unspecified vectors.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2016-3727"
+} ]

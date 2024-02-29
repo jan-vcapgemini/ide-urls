@@ -1,0 +1,13 @@
+[ {
+  "versionRange" : "[3.0.4,3.0.4]",
+  "severity" : 5.8,
+  "cveName" : "CVE-2013-0253",
+  "description" : "The default configuration of Apache Maven 3.0.4, when using Maven Wagon 2.1, disables SSL certificate checks, which allows remote attackers to spoof servers via a man-in-the-middle (MITM) attack.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2013-0253"
+}, {
+  "versionRange" : "(,3.8.1)",
+  "severity" : 9.1,
+  "cveName" : "CVE-2021-26291",
+  "description" : "Apache Maven will follow repositories that are defined in a dependency���s Project Object Model (pom) which may be surprising to some users, resulting in potential risk if a malicious actor takes over that repository or is able to insert themselves into a position to pretend to be that repository. Maven is changing the default behavior in 3.8.1+ to no longer follow http (non-SSL) repository references by default. More details available in the referenced urls. If you are currently using a repository manager to govern the repositories used by your builds, you are unaffected by the risks present in the legacy behavior, and are unaffected by this vulnerability and change to default behavior. See this link for more information about repository management: https://maven.apache.org/repository-management.html",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-26291"
+} ]

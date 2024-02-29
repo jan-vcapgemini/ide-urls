@@ -1,0 +1,7 @@
+[ {
+  "versionRange" : "(,1.9.1]",
+  "severity" : 7.5,
+  "cveName" : "CVE-2014-9970",
+  "description" : "jasypt before 1.9.2 allows a timing attack against the password hash comparison.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2014-9970"
+} ]

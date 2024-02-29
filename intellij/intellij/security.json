@@ -1,0 +1,337 @@
+[ {
+  "versionRange" : "[2018.2,2018.2.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9186",
+  "description" : "In several JetBrains IntelliJ IDEA versions, a Spring Boot run configuration with the default setting allowed remote attackers to execute code when the configuration is running, because a JMX server listens on all interfaces (instead of listening on only the localhost interface). This issue has been fixed in the following versions: 2019.1, 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9186"
+}, {
+  "versionRange" : "(,2020.3.3)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-30006",
+  "description" : "In IntelliJ IDEA before 2020.3.3, XXE was possible, leading to information disclosure.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-30006"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 6.7,
+  "cveName" : "CVE-2022-29815",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 local code execution via workspace settings was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29815"
+}, {
+  "versionRange" : "(,2023.1)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-48430",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.1 file content could be disclosed via an external stylesheet path in Markdown preview.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-48430"
+}, {
+  "versionRange" : "[2018.2,2018.2.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9823",
+  "description" : "In several JetBrains IntelliJ IDEA versions, creating remote run configurations of JavaEE application servers leads to saving a cleartext record of the server credentials in the IDE configuration files. The issue has been fixed in the following versions: 2018.3.5, 2018.2.8, 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9823"
+}, {
+  "versionRange" : "(,2023.1)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-48431",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.1 in some cases, Gradle and Maven projects could be imported without the ���Trust Project��� confirmation.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-48431"
+}, {
+  "versionRange" : "(,2022.3.1)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-47896",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3.1 code Templates were vulnerable to SSTI attacks.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-47896"
+}, {
+  "versionRange" : "[2018.1,2018.1.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9823",
+  "description" : "In several JetBrains IntelliJ IDEA versions, creating remote run configurations of JavaEE application servers leads to saving a cleartext record of the server credentials in the IDE configuration files. The issue has been fixed in the following versions: 2018.3.5, 2018.2.8, 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9823"
+}, {
+  "versionRange" : "(,2022.2)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-37009",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.2 local code execution via a Vagrant executable was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-37009"
+}, {
+  "versionRange" : "(,2022.3)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-46828",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3 a DYLIB injection on macOS was possible.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-46828"
+}, {
+  "versionRange" : "(,2023.3.3)",
+  "severity" : 4.3,
+  "cveName" : "CVE-2024-24940",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.3.3 path traversal was possible when unpacking archives",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-24940"
+}, {
+  "versionRange" : "[2021.3.1,2021.3.1]",
+  "severity" : 9.8,
+  "cveName" : "CVE-2021-45977",
+  "description" : "JetBrains IntelliJ IDEA 2021.3.1 Preview, IntelliJ IDEA 2021.3.1 RC, PyCharm Professional 2021.3.1 RC, GoLand 2021.3.1, PhpStorm 2021.3.1 Preview, PhpStorm 2021.3.1 RC, RubyMine 2021.3.1 Preview, RubyMine 2021.3.1 RC, CLion 2021.3.1, WebStorm 2021.3.1 Preview, and WebStorm 2021.3.1 RC (used as Remote Development backend IDEs) bind to the 0.0.0.0 IP address. The fixed versions are: IntelliJ IDEA 2021.3.1, PyCharm Professional 2021.3.1, GoLand 2021.3.2, PhpStorm 2021.3.1 (213.6461.83), RubyMine 2021.3.1, CLion 2021.3.2, and WebStorm 2021.3.1.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-45977"
+}, {
+  "versionRange" : "(,2023.1)",
+  "severity" : 8.8,
+  "cveName" : "CVE-2022-48432",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.1 the bundled version of Chromium wasn't sandboxed.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-48432"
+}, {
+  "versionRange" : "(,2023.1)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-48433",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.1 the NTLM hash could leak through an API method used in the IntelliJ IDEA built-in web server.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-48433"
+}, {
+  "versionRange" : "(,2022.3.1)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2022-47895",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3.1 the \"Validate JSP File\" action used the HTTP protocol to download required JAR files.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-47895"
+}, {
+  "versionRange" : "(,2023.3.2)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2023-51655",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.3.2 code execution was possible in Untrusted Project mode via a malicious plugin repository specified in the project configuration",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-51655"
+}, {
+  "versionRange" : "(,2022.3)",
+  "severity" : 5.5,
+  "cveName" : "CVE-2022-46827",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3 an XXE attack leading to SSRF via requests to custom plugin repositories was possible.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-46827"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 7.1,
+  "cveName" : "CVE-2022-29818",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 origin checks in the internal web server were flawed",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29818"
+}, {
+  "versionRange" : "(,2023.3.3)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2024-24941",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.3.3 a plugin for JetBrains Space was able to send an authentication token to an inappropriate URL",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2024-24941"
+}, {
+  "versionRange" : "(,2019.2)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2019-18361",
+  "description" : "JetBrains IntelliJ IDEA before 2019.2 allows local user privilege escalation, potentially leading to arbitrary code execution.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-18361"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 7.7,
+  "cveName" : "CVE-2022-29814",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 local code execution via HTML descriptions in custom JSON schemas was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29814"
+}, {
+  "versionRange" : "[2018.3.6,2019.1)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9186",
+  "description" : "In several JetBrains IntelliJ IDEA versions, a Spring Boot run configuration with the default setting allowed remote attackers to execute code when the configuration is running, because a JMX server listens on all interfaces (instead of listening on only the localhost interface). This issue has been fixed in the following versions: 2019.1, 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9186"
+}, {
+  "versionRange" : "[2018.2,2018.2.8)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2019-9872",
+  "description" : "In several versions of JetBrains IntelliJ IDEA Ultimate, creating run configurations for cloud application servers leads to saving a cleartext unencrypted record of the server credentials in the IDE configuration files. If the Settings Repository plugin was then used and configured to synchronize IDE settings using a public repository, these credentials were published to this repository. The issue has been fixed in the following versions: 2019.1, 2018.3.5, 2018.2.8, and 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9872"
+}, {
+  "versionRange" : "(,2022.2.2)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-40978",
+  "description" : "The installer of JetBrains IntelliJ IDEA before 2022.2.2 was vulnerable to EXE search order hijacking",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-40978"
+}, {
+  "versionRange" : "(,2020.2)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2020-27622",
+  "description" : "In JetBrains IntelliJ IDEA before 2020.2, the built-in web server could expose information about the IDE version.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-27622"
+}, {
+  "versionRange" : "(,2021.3.1)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-24346",
+  "description" : "In JetBrains IntelliJ IDEA before 2021.3.1, local code execution via RLO (Right-to-Left Override) characters was possible.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-24346"
+}, {
+  "versionRange" : "[2018.1,2018.1.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9186",
+  "description" : "In several JetBrains IntelliJ IDEA versions, a Spring Boot run configuration with the default setting allowed remote attackers to execute code when the configuration is running, because a JMX server listens on all interfaces (instead of listening on only the localhost interface). This issue has been fixed in the following versions: 2019.1, 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9186"
+}, {
+  "versionRange" : "(,2022.3)",
+  "severity" : 3.3,
+  "cveName" : "CVE-2022-46825",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3 the built-in web server leaked information about open projects.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-46825"
+}, {
+  "versionRange" : "(,2023.2)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2023-39261",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.2 plugin for Space was requesting excessive permissions",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-39261"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 7.7,
+  "cveName" : "CVE-2022-29819",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 local code execution via links in Quick Documentation was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29819"
+}, {
+  "versionRange" : "(,2020.3.3)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2021-29263",
+  "description" : "In JetBrains IntelliJ IDEA 2020.3.3, local code execution was possible because of insufficient checks when getting the project from VCS.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-29263"
+}, {
+  "versionRange" : "[2018.2,2018.2.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-10104",
+  "description" : "In several JetBrains IntelliJ IDEA Ultimate versions, an Application Server run configuration (for Tomcat, Jetty, Resin, or CloudBees) with the default setting allowed a remote attacker to execute code when the configuration is running, because a JMX server listened on all interfaces instead of localhost only. The issue has been fixed in the following versions: 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10104"
+}, {
+  "versionRange" : "(,2019.3.0)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2020-7914",
+  "description" : "In JetBrains IntelliJ IDEA 2019.2, an XSLT debugger plugin misconfiguration allows arbitrary file read operations over the network. This issue was fixed in 2019.3.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7914"
+}, {
+  "versionRange" : "(,2020.1)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2020-11690",
+  "description" : "In JetBrains IntelliJ IDEA before 2020.1, the license server could be resolved to an untrusted host in some cases.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-11690"
+}, {
+  "versionRange" : "(,2019.3.0)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2020-7905",
+  "description" : "Ports listened to by JetBrains IntelliJ IDEA before 2019.3 were exposed to the network.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7905"
+}, {
+  "versionRange" : "(,2020.3)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2021-25758",
+  "description" : "In JetBrains IntelliJ IDEA before 2020.3, potentially insecure deserialization of the workspace model could lead to local code execution.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-25758"
+}, {
+  "versionRange" : "(,2021.1)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2021-30504",
+  "description" : "In JetBrains IntelliJ IDEA before 2021.1, DoS was possible because of unbounded resource allocation.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-30504"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 2.3,
+  "cveName" : "CVE-2022-29812",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 notification mechanisms about using Unicode directionality formatting characters were insufficient",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29812"
+}, {
+  "versionRange" : "[2018.1,2018.1.8)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-10104",
+  "description" : "In several JetBrains IntelliJ IDEA Ultimate versions, an Application Server run configuration (for Tomcat, Jetty, Resin, or CloudBees) with the default setting allowed a remote attacker to execute code when the configuration is running, because a JMX server listened on all interfaces instead of localhost only. The issue has been fixed in the following versions: 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10104"
+}, {
+  "versionRange" : "(,2020.2)",
+  "severity" : 5.3,
+  "cveName" : "CVE-2021-25756",
+  "description" : "In JetBrains IntelliJ IDEA before 2020.2, HTTP links were used for several remote repositories instead of HTTPS.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2021-25756"
+}, {
+  "versionRange" : "(,2021.2.4)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-24345",
+  "description" : "In JetBrains IntelliJ IDEA before 2021.2.4, local code execution (without permission from a user) upon opening a project was possible.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-24345"
+}, {
+  "versionRange" : "(,2022.3)",
+  "severity" : 5.5,
+  "cveName" : "CVE-2022-46826",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.3 the built-in web server allowed an arbitrary file to be read by exploiting a path traversal vulnerability.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-46826"
+}, {
+  "versionRange" : "(,2021.3.3)",
+  "severity" : 5.5,
+  "cveName" : "CVE-2022-28651",
+  "description" : "In JetBrains IntelliJ IDEA before 2021.3.3 it was possible to get passwords from protected fields",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-28651"
+}, {
+  "versionRange" : "(,2017.2.2)",
+  "severity" : 7.5,
+  "cveName" : "CVE-2017-8316",
+  "description" : "IntelliJ IDEA XML parser was found vulnerable to XML External Entity attack, an attacker can exploit the vulnerability by implementing malicious code on both Androidmanifest.xml.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2017-8316"
+}, {
+  "versionRange" : "(,2019.3.0)",
+  "severity" : 7.4,
+  "cveName" : "CVE-2020-7904",
+  "description" : "In JetBrains IntelliJ IDEA before 2019.3, some Maven repositories were accessed via HTTP instead of HTTPS.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2020-7904"
+}, {
+  "versionRange" : "[2018.1,2018.1.8)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2019-9872",
+  "description" : "In several versions of JetBrains IntelliJ IDEA Ultimate, creating run configurations for cloud application servers leads to saving a cleartext unencrypted record of the server credentials in the IDE configuration files. If the Settings Repository plugin was then used and configured to synchronize IDE settings using a public repository, these credentials were published to this repository. The issue has been fixed in the following versions: 2019.1, 2018.3.5, 2018.2.8, and 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9872"
+}, {
+  "versionRange" : "[2018.3.6,2019.1)",
+  "severity" : 8.1,
+  "cveName" : "CVE-2019-9872",
+  "description" : "In several versions of JetBrains IntelliJ IDEA Ultimate, creating run configurations for cloud application servers leads to saving a cleartext unencrypted record of the server credentials in the IDE configuration files. If the Settings Repository plugin was then used and configured to synchronize IDE settings using a public repository, these credentials were published to this repository. The issue has been fixed in the following versions: 2019.1, 2018.3.5, 2018.2.8, and 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9872"
+}, {
+  "versionRange" : "(,2023.1.4)",
+  "severity" : 3.3,
+  "cveName" : "CVE-2023-38069",
+  "description" : "In JetBrains IntelliJ IDEA before 2023.1.4 license dialog could be suppressed in certain cases",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2023-38069"
+}, {
+  "versionRange" : "(,2019.1)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-9873",
+  "description" : "In several versions of JetBrains IntelliJ IDEA Ultimate, creating Task Servers configurations leads to saving a cleartext unencrypted record of the server credentials in the IDE configuration files. The issue has been fixed in the following versions: 2019.1, 2018.3.5, 2018.2.8, and 2018.1.8.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-9873"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 6.1,
+  "cveName" : "CVE-2022-29817",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 reflected XSS via error messages in internal web server was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29817"
+}, {
+  "versionRange" : "(,2019.2)",
+  "severity" : 5.9,
+  "cveName" : "CVE-2019-14954",
+  "description" : "JetBrains IntelliJ IDEA before 2019.2 was resolving the markdown plantuml artifact download link via a cleartext http connection.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-14954"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 6.7,
+  "cveName" : "CVE-2022-29813",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 local code execution via custom Pandoc path was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29813"
+}, {
+  "versionRange" : "(,2022.2.4)",
+  "severity" : 7.8,
+  "cveName" : "CVE-2022-46824",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.2.4 a buffer overflow in the fsnotifier daemon on macOS was possible.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-46824"
+}, {
+  "versionRange" : "(,2022.1)",
+  "severity" : 3.2,
+  "cveName" : "CVE-2022-29816",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.1 HTML injection into IDE messages was possible",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-29816"
+}, {
+  "versionRange" : "[2018.3.5,2018.3.7)",
+  "severity" : 9.8,
+  "cveName" : "CVE-2019-10104",
+  "description" : "In several JetBrains IntelliJ IDEA Ultimate versions, an Application Server run configuration (for Tomcat, Jetty, Resin, or CloudBees) with the default setting allowed a remote attacker to execute code when the configuration is running, because a JMX server listened on all interfaces instead of localhost only. The issue has been fixed in the following versions: 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2019-10104"
+}, {
+  "versionRange" : "(,2022.2)",
+  "severity" : 3.3,
+  "cveName" : "CVE-2022-37010",
+  "description" : "In JetBrains IntelliJ IDEA before 2022.2 email address validation in the \"Git User Name Is Not Defined\" dialog was missed",
+  "nistUrl" : "https://nvd.nist.gov/vuln/detail/CVE-2022-37010"
+} ]
