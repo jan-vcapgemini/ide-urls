@@ -14,19 +14,19 @@
    "[5.0, 6.0)": [
       {
          "tool": "node",
-         "versionRange": "[4.0, )"
+         "versionRange": "[4.0,)"
       }
    ],
    "[6.0, 7.0)": [
       {
          "tool": "node",
-         "versionRange": "[4.0, )"
+         "versionRange": "[4.0,)"
       }
    ],
    "[7.0, 8.0)": [
       {
          "tool": "node",
-         "versionRange": "[6.0, )"
+         "versionRange": "[6.0,)"
       }
    ],
    "[8.0, 9.0)": [
@@ -38,19 +38,19 @@
    "[9.0, 10.0)": [
       {
          "tool": "node",
-         "versionRange": "[18.0.0, )"
+         "versionRange": "[18.0.0,)"
       }
    ],
    "[10.0, 11.0)": [
       {
          "tool": "node",
-         "versionRange": "[18.0.0, )"
+         "versionRange": "[18.0.0,)"
       }
    ],
-   "[11.0)": [
+   "[11.0,)": [
       {
          "tool": "node",
-         "versionRange": "[20.5.0, )"
+         "versionRange": "[20.5.0,)"
       }
    ]
 }
